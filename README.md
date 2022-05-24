@@ -3,7 +3,7 @@
 > ## 목차
 >> #### 01. The machine learning landscape
 >> ```
->> 
+>> [Linear Regression]https://github.com/Gauguin94/hands_on_ml/tree/main/01_linear_regression
 >> ```
 >> #### 02. End to end machine learning project
 >> 
