@@ -28,6 +28,8 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
 ```
 ```python
   data = dataloader.whichOS("isLinux")
+  oecd_bli = data[0]
+  gdp_per_capita = data[1]
 ```
 
 # 결과
