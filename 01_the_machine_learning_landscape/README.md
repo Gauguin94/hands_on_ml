@@ -32,4 +32,15 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
 # 결과
 ![Result](https://user-images.githubusercontent.com/98927470/170038411-0431889f-f47c-4048-b50a-678c11c57953.PNG)
   
+# 최근접 이웃(K-Nearest Neighbors) 예제
+  
+> 과정은 위와 동일하며, 모델을 아래와 같이 변경한다.  
+> 주변 3개의 데이터를 기준으로 데이터를 분류하게 된다.
+```python
+import sklearn.neighbors
+model = sklearn.neighbors.KNeighborsRegressor(n_neighbors=3)
+```
+  
+# 결과
+![Result](https://user-images.githubusercontent.com/98927470/170181379-4a9e0d73-57be-4009-be06-6bc44ad6c0de.PNG)
   
