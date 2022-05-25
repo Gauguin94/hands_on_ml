@@ -21,5 +21,5 @@ if __name__ == "__main__":
 
     model.fit(X, y) # train model
 
-    X_new = [[22587]] # make new data for criticizing performance. In this case, X_new is Republic of Cyprus's GDP.
+    X_new = [[22587]] # make new data for criticizing performance(inference). In this case, X_new is Republic of Cyprus's GDP.
     print(model.predict(X_new)) # model's predict. -> 5.96242338 (Life satisfaction)
