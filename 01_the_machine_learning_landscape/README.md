@@ -1,4 +1,4 @@
-# 선형 회귀(Linear Regression) 예제
+# 단순 선형 회귀(Simple Linear Regression) 예제
   
 > 1. 국가별 국내총생산(GDP)과 삶의 만족도를 엮어 데이터를 만든다.
 ```python
