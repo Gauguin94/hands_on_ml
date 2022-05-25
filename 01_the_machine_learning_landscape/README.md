@@ -19,6 +19,7 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
 > 제작한 코드를 Windows나 Linux 체제에서 실행시킬 것을 고려하여, 'dataloader'라는 클래스를 구현.
 > dataloader 내 존재하는 whichOS는 OS에 맞춰 데이터를 불러오는 역할을 한다.  
 > data에는 "oecd_bli_2015.csv"와 "gdp_per_capita.csv"의 데이터가 존재한다.
+> "linear_regression.py"를 실행한다.
 > ### **example**
 ```python
   data = dataloader.whichOS("isWindows")
@@ -36,6 +37,7 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
   
 > 과정은 위와 동일하며, 모델을 아래와 같이 변경한다.  
 > 주변 3개의 데이터를 기준으로 데이터를 분류하게 된다.
+> "knn.py"를 실행한다.
 ```python
 import sklearn.neighbors
 model = sklearn.neighbors.KNeighborsRegressor(n_neighbors=3)
