@@ -2,7 +2,9 @@
 ------
 > ## 목차
 >> #### 01. The machine learning landscape
->>> [Linear Regression](https://github.com/Gauguin94/hands_on_ml/tree/main/01_the_machine_learning_landscape)
+>>> [Linear Regression](https://github.com/Gauguin94/hands_on_ml/blob/main/01_the_machine_learning_landscape/linear_regression.py)
+>>> &
+>>> [K-Nearest Neighbors](https://github.com/Gauguin94/hands_on_ml/blob/main/01_the_machine_learning_landscape/knn.py)
 >> #### 02. End to end machine learning project
 >> 
 >> #### 03. Classification
