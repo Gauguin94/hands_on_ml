@@ -9,7 +9,7 @@ country_stats = prepare_country_stats(oecd_bli, gdp_per_capita)
 model = sklearn.linear_model.LinearRegression()
 model.fit(X, y)
 ```
-> 3. 학습이 종료된 모델에 새로운 데이터('키프로스'의 국내총생산)를 입력으로 하여 예측(출력)값을 확인한다.
+> 3. 학습이 종료된 모델에 새로운 데이터('키프로스'의 국내총생산)를 입력으로 하여 예측(출력)값을 확인한다.(추론 과정)  
 ```python
 X_new = [[22587]]
 print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
