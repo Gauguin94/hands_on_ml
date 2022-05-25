@@ -1,5 +1,5 @@
 # 단순 선형 회귀(Simple Linear Regression) 예제
-  
+# 실행
 > 1. 국가별 국내총생산(GDP)과 삶의 만족도를 엮어 데이터를 만든다.
 ```python
 country_stats = prepare_country_stats(oecd_bli, gdp_per_capita)
@@ -14,8 +14,6 @@ model.fit(X, y)
 X_new = [[22587]]
 print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
 ```
-  
-# 실행
 > 제작한 코드를 Windows나 Linux 체제에서 실행시킬 것을 고려하여, 'dataloader'라는 클래스를 구현.  
 > dataloader 내 존재하는 whichOS는 OS에 맞춰 데이터를 불러오는 역할을 한다.  
 > data에는 "oecd_bli_2015.csv"와 "gdp_per_capita.csv"의 데이터가 존재한다.  
