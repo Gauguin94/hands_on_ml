@@ -36,7 +36,7 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
   
   
 # 최근접 이웃(K-Nearest Neighbors) 예제
-  
+# 실행
 > 과정은 위와 동일하며, 모델을 아래와 같이 변경한다.  
 > 주변 3개의 데이터를 기준으로 데이터를 분류하게 된다.  
 > "knn.py"를 실행한다.
