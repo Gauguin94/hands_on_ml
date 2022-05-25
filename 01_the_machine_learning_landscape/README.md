@@ -34,6 +34,8 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
 
 # 결과
 ![Result](https://user-images.githubusercontent.com/98927470/170038411-0431889f-f47c-4048-b50a-678c11c57953.PNG)
+# 그래서 단순 선형 회귀가 뭔데?
+  
   
 # 최근접 이웃(K-Nearest Neighbors) 예제
   
