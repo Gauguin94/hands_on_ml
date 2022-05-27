@@ -6,7 +6,7 @@
 >>> &
 >>> [K-Nearest Neighbors](https://github.com/Gauguin94/hands_on_ml/blob/main/01_the_machine_learning_landscape/knn.py)
 >> #### 02. End to end machine learning project
->> 
+>>> [Pipeline](https://github.com/Gauguin94/hands_on_ml/tree/main/02_end_to_end_machine_learning_project) 
 >> #### 03. Classification
 >> 
 >> #### 04. Training linear models
