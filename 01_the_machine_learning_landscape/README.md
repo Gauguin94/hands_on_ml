@@ -43,7 +43,9 @@ print('Republic of Cyprus's Life satisfaction: {}'.format(model.predict(X_new)))
 > 입실론을 제외한 각 항은 각각 미지의 절편과 기울기를 나타낸다.  
 > 입실론은 오차항을 나타내며, 대개 오차항은 N(0, σ^2)를 따른다.  
 > 데이터들과 회귀식(회귀선) 사이 잔차(Root Mean Square Error)가 가장 낮게되는 회귀식을 찾는 것이 목표이며,  
-> 이를 통해 독립변수에 따른 종속변수의 값을 예측할 수 있다.
+> 이를 통해 독립변수에 따른 종속변수의 값을 예측할 수 있다.  
+  
+![regression](https://user-images.githubusercontent.com/98927470/170676448-bd4b2158-f794-461d-9a3a-d9903d25eb66.png)  
   
 # 최근접 이웃(K-Nearest Neighbors) 예제
 # 실행
