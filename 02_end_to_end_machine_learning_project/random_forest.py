@@ -40,7 +40,6 @@ if __name__ == "__main__":
                             scoring='neg_mean_squared_error',
                             return_train_score=True)
     grid_search.fit(x, label)
-    grid_search.best_params_    
-
+    print(grid_search.best_params_)
 
     joblib.dump(rfr, "forest_model.pkl")
