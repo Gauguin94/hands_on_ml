@@ -64,6 +64,7 @@ housing["population_per_household"] = housing["population"]/housing["households"
 > 우리는 GridSearchCV나 RandomizedSearchCv로 위 작업을 자동화시킬 수 있다.  
 > 상단의 결과와 같이, 하이퍼파라미터에 따른 오차를 확인 가능하다!  
 > 또한 우리는 아래와 같이 중요한 특성과 비교적 중요하지 않은 특성을 찾아낼 수 있다.  
+  
 ![특성중요도](https://user-images.githubusercontent.com/98927470/170680633-bfbe3f11-4045-4043-913f-33a03382b4f7.PNG)
 
 # 2장의 주안점
