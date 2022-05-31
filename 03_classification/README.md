@@ -74,3 +74,4 @@ if __name__ == "__main__":
 > 이와 같은 경우 다중 레이블(픽셀당 한 레이블)이며  
 > 각 레이블은 값을 여러개 가지기 때문에(픽셀 강도(0~255))  
 > 다중 출력 분류 문제라고 할 수 있다.  
+![노이즈비교](https://user-images.githubusercontent.com/98927470/171118459-026420c3-01ac-4a76-a48d-9ba6e24e5ed0.PNG)![모델의예측](https://user-images.githubusercontent.com/98927470/171118522-116bc4bf-20ea-4faa-adf4-f3cd2f12d0fe.PNG)
