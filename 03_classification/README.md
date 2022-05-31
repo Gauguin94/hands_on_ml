@@ -76,7 +76,12 @@ if __name__ == "__main__":
 > 다중 출력 분류 문제라고 할 수 있다.  
 ![노이즈비교](https://user-images.githubusercontent.com/98927470/171118459-026420c3-01ac-4a76-a48d-9ba6e24e5ed0.PNG)![모델의예측](https://user-images.githubusercontent.com/98927470/171118522-116bc4bf-20ea-4faa-adf4-f3cd2f12d0fe.PNG)  
 
->> 이번 건은 주피터노트북으로 하나 하나 곱씹으면서 하는 것이  
->> 좋을 것이라고 생각하여  
->> ipynb로 자세하게 정리하였다.  
->> [ipynb](https://github.com/Gauguin94/hands_on_ml/blob/main/03_classification/mnist.ipynb) <- click
+# 분류 문제에서 중요한 것들
+> 이번 건은 주피터노트북으로 하나 하나 곱씹으면서 하는 것이  
+> 좋을 것이라고 생각하여  
+> ipynb로 자세하게 정리하였다.  
+> **[ipynb](https://github.com/Gauguin94/hands_on_ml/blob/main/03_classification/mnist.ipynb) <- click**  
+  
+## 위 ipynb에서 짚고 넘어가야할 것들  
+>> 혼돈행렬, 정밀도, 재현율, 조화평균, ROC, AUC (워낙 많이 접함.)  
+>> OvR, OvA, OvO - 한 번 정도 봤었던 것 같은 개념들이다. 어렵지 않다.  
