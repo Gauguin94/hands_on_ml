@@ -40,5 +40,21 @@ class dataSaver:
         print("save process finish! (OS: Linux)")
         return 0
 ```
-> 매번 다운로드 받기에는 시간이 너무 아깝기 때문에 OS에 맞춰 지정한 디렉토리에  
-> 파일을 저장하도록 한다.  
+>   
+> 매번 다운로드 받기에는 시간이 너무 아깝기 때문에  
+> 원하는 OS에 맞춰 지정한 디렉토리에 파일을 저장하도록 한다.  
+>   
+```python
+def save_process():
+    downloader = downLoader()
+    mnist = downloader.download()
+    x, y = mnist["data"], mnist["target"]
+    datasaver = dataSaver(x, y)
+    datasaver.whichOS("isWindows")
+    
+if __name__ == "__main__":
+    save_process() # execute this function first time. This function download mnist file on your space. Then you should   comment out this line.
+```
+> 본문에서는 위와 같이 다운로드 받도록 구현하였으며,  
+> 파일을 내려받지 않은 경우에만 한번 실행시키고  
+> 그 다음부터는 주석처리하면 된다.  
