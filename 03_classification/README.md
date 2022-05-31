@@ -60,9 +60,13 @@ if __name__ == "__main__":
 > 그 다음부터는 주석처리하면 된다.  
 
 # SGDClassifier
+## 5와 5가 아닌 숫자 분류("SGDClassifier.py")  
 > scikit.learn의 SGDClassifier는 결정함수(decision function)를 사용하여 각 샘플의 점수를 계산한다.  
 > 점수가 임곗값보다 크면 샘플을 양성(positive) 클래스에 할당하고,  
 > 그렇지 않으면 음성(negative) 클래스에 할당한다.  
 > 예를 들어, MNIST 데이터셋에서 5와 5가 아닌 숫자로 분류할 때,  
 > 5이거나 5와 모양이 비슷한 숫자라면 점수가 높고 다른 모양일수록 점수가 낮다.  
 > (정확하게는 픽셀 강도(0~255)의 가중치의 합이 클래스의 점수다.)  
+
+# 다중 출력 다중 클래스 분류 문제
+## ("KNNClassifier.py")  
