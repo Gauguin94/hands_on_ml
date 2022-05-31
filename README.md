@@ -8,7 +8,9 @@
 >> #### 02. End to end machine learning project
 >>> [Pipeline](https://github.com/Gauguin94/hands_on_ml/tree/main/02_end_to_end_machine_learning_project) 
 >> #### 03. Classification
->> 
+>>> [SGDClassifier]()
+>>> &
+>>> [KNearestNeighbors]()
 >> #### 04. Training linear models
 >> 
 >> #### 05. Support vector machines
