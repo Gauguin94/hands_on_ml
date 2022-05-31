@@ -34,7 +34,7 @@ def plot_roc_curve(fpr, tpr, label=None):
     plt.show()
 
 if __name__ == "__main__":
-    # save_process() # execute this function first time. This function download mnist file on your space. Then you should comment out this line.
+    save_process() # execute this function first time. This function download mnist file on your space. Then you should comment out this line.
     dataloader = dataLoader()
     data = dataloader.whichOS("isWindows")
     X_train, X_test, y_train, y_test, y_train_5, y_test_5 = div_data(data[0], data[1])
